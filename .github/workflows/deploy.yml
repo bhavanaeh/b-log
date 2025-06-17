@@ -37,16 +37,18 @@ jobs:
 
       - name: Install Dependencies
         run: |
+          cd quartz
           npm install
-          npm install -g quartz
 
       - name: Build Quartz
-        run: npx quartz build --bundleInfo
+        run: |
+          cd quartz
+          npm run quartz build --bundleInfo
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: public
+          path: quartz/public
  
   deploy:
     needs: build
