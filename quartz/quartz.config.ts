@@ -30,7 +30,7 @@ const config: QuartzConfig = {
       colors: {
         lightMode: {
           light: "#f0e7d5",
-          lightgray: "#e5e5e5",
+          lightgray: "#f0e7d5", // lightgray: "#e5e5e5",
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#284b63", // dark: "#2b2b2b", this is probably the header text color
