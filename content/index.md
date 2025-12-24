@@ -1,5 +1,5 @@
 ---
-title: welcome to the b-side 📼
+title: b-log
 ---
 
 <!-- This is a blank Quartz installation.
