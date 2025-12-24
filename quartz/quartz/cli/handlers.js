@@ -175,7 +175,7 @@ export async function handleCreate(argv) {
 title: b-log
 ---
 
-b's second brain
+b's second brain ⋆✩˚.⋆.
 `,
     )
   }

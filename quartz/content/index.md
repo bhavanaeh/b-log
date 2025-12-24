@@ -2,4 +2,4 @@
 title: b-log
 ---
 
-b's second brain
+b's second brain ⋆✩˚.⋆.
