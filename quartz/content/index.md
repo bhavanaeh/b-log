@@ -1,5 +1,5 @@
 ---
-title: Welcome to Quartz
+title: b-log
 ---
 
 This is a blank Quartz installation.
