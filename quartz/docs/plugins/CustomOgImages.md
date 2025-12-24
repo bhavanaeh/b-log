@@ -231,7 +231,7 @@ export const customImage: SocialImageOptions["imageStructure"] = (
   )
 }
 ```
-<!-- 
+
 ### Advanced Example
 
 The following example includes a customized social image with a custom background and formatted date:
@@ -357,4 +357,4 @@ export const og: SocialImageOptions["Component"] = (
     </div>
   )
 }
-``` -->
+```
