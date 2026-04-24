@@ -2,7 +2,7 @@
 title: publishing setup
 date: 2026-04-23
 draft: false
-tags: [meta, workflow]
+tags: [workflow]
 ---
 
 obsidian for writing, quartz4 for building, github actions for deploying. notes live in `b-log/quartz/content/`, pushes to `v4` trigger a deploy.
@@ -13,7 +13,7 @@ obsidian for writing, quartz4 for building, github actions for deploying. notes 
 2. write and iterate
 3. run `/publish <note-name>` in claude code when ready
 
-### custom claude code commands i set up
+### i set up the following commands (to start with)
 
 `/publish` — the main one. sets `draft: false` in frontmatter, creates a `publish/<note-slug>` branch off `v4`, commits with conventional commit format (`feat: publish <title>`), opens a PR to `v4`, merges it, cleans up.
 
