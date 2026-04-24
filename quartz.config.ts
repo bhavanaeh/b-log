@@ -16,7 +16,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "bhavanaeh.github.io",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", "content/templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
