@@ -2,7 +2,7 @@ Publish an Obsidian note to b-log.
 
 The user will provide the name or path of a note to publish. Follow these steps:
 
-1. **Find the note**: Look for the note in the `content/` directory of this repo. If the user gives a partial name, search for it. If the note doesn't exist, tell the user and stop.
+1. **Find the note**: Look for the note in the `quartz/content/` directory of this repo. If the user gives a partial name, search for it. If the note doesn't exist, tell the user and stop.
 
 2. **Update frontmatter**: Set `draft: false` in the note's YAML frontmatter. If there is no frontmatter, add it. If `draft` is already `false`, tell the user the note is already published and ask if they want to continue anyway.
 

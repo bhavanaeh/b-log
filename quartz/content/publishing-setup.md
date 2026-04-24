@@ -5,7 +5,7 @@ draft: false
 tags: [meta, workflow]
 ---
 
-obsidian for writing, quartz4 for building, github actions for deploying. notes live in `b-log/content/`, pushes to `v4` trigger a deploy.
+obsidian for writing, quartz4 for building, github actions for deploying. notes live in `b-log/quartz/content/`, pushes to `v4` trigger a deploy.
 
 ### workflow
 
