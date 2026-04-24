@@ -17,7 +17,7 @@ obsidian for writing, quartz4 for building, github actions for deploying. notes 
 
 `/publish` — the main one. sets `draft: false` in frontmatter, creates a `publish/<note-slug>` branch off `v4`, commits with conventional commit format (`feat: publish <title>`), opens a PR to `v4`, merges it, cleans up.
 
-`/commit` — stages and commits changes using conventional commits. picks the right prefix based on what changed:
+`/commit` — stages and commits changes using conventional commits. if i'm on `v4`, it auto-creates a feature branch first (named from the changes, like `feat/add-post-title`). picks the right prefix based on what changed:
 
 - `feat:` for new stuff
 - `fix:` for bugs
@@ -26,7 +26,9 @@ obsidian for writing, quartz4 for building, github actions for deploying. notes 
 - `style:` for formatting/theme changes
 - `refactor:` for restructuring without behavior change
 
-`/pr` — pushes the current branch and opens a PR to `v4`. writes a summary and test plan in the body. useful when i want to review before merging instead of going straight through `/publish`.
+`/pr` — pushes the current branch and opens a PR to `v4`. if i'm on `v4`, it auto-creates a feature branch first. writes a summary and test plan in the body. useful when i want to review before merging instead of going straight through `/publish`.
+
+all three commands need to be run from the repo clone (`b-log/`).
 
 ### note template
 
