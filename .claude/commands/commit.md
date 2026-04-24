@@ -1,4 +1,4 @@
-Commit changes in the b-log repo. This command must be run from the repo clone directory (`/Users/bhavana/Documents/GitHub/personal/b-log`).
+Commit changes in the b-log repo. This command must be run from the repo clone directory.
 
 1. **Check branch**: If the current branch is `v4`, create a feature branch before committing:
    - Derive a short branch name from the staged changes (e.g., `feat/add-post-title`, `fix/broken-link`)

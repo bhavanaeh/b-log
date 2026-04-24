@@ -1,4 +1,4 @@
-Create a pull request for the current branch to v4. This command must be run from the repo clone directory (`/Users/bhavana/Documents/GitHub/personal/b-log`).
+Create a pull request for the current branch to v4. This command must be run from the repo clone directory.
 
 1. **Check state**: Run `git status`, `git branch`, and `git log v4..HEAD --oneline` to understand what's being proposed.
 
